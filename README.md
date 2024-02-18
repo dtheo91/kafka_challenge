@@ -16,9 +16,13 @@ By spinning up the Python Application, it initially spawns three Consumers for d
 
 ## Accessing the services
 
-Going to http://localhost:8888/ brings you to a Jupyterlab, where you can spawn a Producer to send data to a certain Topic via: <big>producer.ipynb</big> 
+Going to http://localhost:8888/ brings you to a Jupyterlab, where you can find the following notebook:
 
-The data you send via the Producer is being processed by the Consumers and later saved to the MongoDB database.
+- producer.ipynb 
+
+This notebook is used to send data to the Kafka Broker. You can change the data being sent and the topic it is being sent to.
+
+The data you send via the Producer is being processed by the Consumers and later saved to the MongoDB Database.
 You can go to http://localhost:8081 to manage the MongoDB Database in Mongo-Express.
 
-You can also check in the logs of the Python Application Container to see the data being processed and saved to the Database.
+You can also check in the Logs of the Python Application Container to see the data being processed and saved to the Database.
