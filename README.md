@@ -9,7 +9,7 @@
 ## Running the project
 
 1. Open a terminal and navigate to the root of the project
-2. Run `docker-compose up`
+2. Run `docker-compose up` or `docker-compose up -d`
 
 This will setup the Kafka Container, the MongoDB Container and the Python Application Container.
 By spinning up the Python Application, it initially spawns three Consumers for different Kafka Topics. 
