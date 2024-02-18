@@ -14,6 +14,8 @@
 This will setup the Kafka Container, the MongoDB Container and the Python Application Container.
 By spinning up the Python Application, it initially spawns three Consumers for different Kafka Topics. 
 
+## Accessing the services
+
 Going to http://localhost:8888/ brings you to a Jupyterlab, where you can spawn a Producer to send data to a certain Topic via: <big>producer.ipynb</big> 
 
 The data you send via the Producer is being processed by the Consumers and later saved to the MongoDB database.
