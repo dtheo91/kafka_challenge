@@ -1,4 +1,4 @@
-# Kafa Challenge 
+# Kafka Challenge 
 
 ## Setup
 
