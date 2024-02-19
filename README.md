@@ -13,7 +13,7 @@
 
 This will setup the Kafka Container, the MongoDB Container and the Python Application Container.
 
-![Diagram for Container Logic](https://github.com/dtheo91/kafka_challenge/img/diagram.webp)
+![Diagram for Container Logic](https://github.com/dtheo91/kafka_challenge/blob/main/img/diagram.webp)
 
 
 By spinning up the Python Application, it initially spawns three Consumers for different Kafka Topics.
