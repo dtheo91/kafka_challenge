@@ -32,6 +32,10 @@ You can go to http://localhost:8081 to manage the MongoDB Database in Mongo-Expr
 
 You can also check the Logs in the Jupyterlab to see the data being processed and saved to the Database.
 
+To get an intuition for my thought process, you can check the following Presentation:
+
+- Presentation.pptx
+
 ## Stopping the project
 
 1. Open a terminal and navigate to the root of the project
