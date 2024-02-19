@@ -4,8 +4,8 @@ from consumer_data_processing import handle_data
 
 if __name__ == "__main__":
     bootstrap_servers = 'kafka:9092'
-    topic = 'Artificial_Intelligence'
-    consumer_id = 1
+    topic = 'Cybersecurity'
+    consumer_id = 3
 
     consumer = KafkaConsumer(topic,
                          auto_offset_reset='earliest',

@@ -8,6 +8,8 @@ sleep 5
 
 # Run the Python consumer script
 python consumer1.py &
+python consumer2.py &
+python consumer3.py &
 
 # Keep the container running
 sleep infinity
