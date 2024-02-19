@@ -53,6 +53,5 @@ services:
       - kafka
       - zookeeper
       - mongo
-      - mongo-express
     ports:
       - 8888:8888
