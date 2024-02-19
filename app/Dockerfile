@@ -17,4 +17,5 @@ RUN pip install jupyterlab
 EXPOSE 8888
 
 # Run JupyterLab when the container launches
-CMD ["jupyter", "lab", "--ip=0.0.0.0", "--port=8888", "--allow-root", "--no-browser", "--NotebookApp.token=''", "--NotebookApp.password=''"]
+#CMD ["jupyter", "lab", "--ip=0.0.0.0", "--port=8888", "--allow-root", "--no-browser", "--NotebookApp.token=''", "--NotebookApp.password=''" && "python", "consumer1.py"]
+CMD ["bash", "start.sh"]
