@@ -24,7 +24,7 @@ Going to http://localhost:8888/ brings you to a Jupyterlab, where you can find t
 
 This notebook is used to send data to the Kafka Broker. You can change the data being sent and the Topic it is being sent to.
 
-The data you send via the Producer is being processed by the Consumers and later saved to the MongoDB Database.
+The data you send via the Producer is being processed by the Consumers every 60 seconds and then saved to the MongoDB Database.
 You can go to http://localhost:8081 to manage the MongoDB Database in Mongo-Express with `username: admin` and `password: pass`.
 
 You can also check the Logs in the Jupyterlab to see the data being processed and saved to the Database.
