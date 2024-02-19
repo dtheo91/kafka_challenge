@@ -12,8 +12,11 @@
 2. Run `docker-compose up` or `docker-compose up -d`
 
 This will setup the Kafka Container, the MongoDB Container and the Python Application Container.
-By spinning up the Python Application, it initially spawns three Consumers for different Kafka Topics.
 
+![Diagram for Container Logic](https://github.com/dtheo91/kafka_challenge/img/diagram.webp)
+
+
+By spinning up the Python Application, it initially spawns three Consumers for different Kafka Topics.
 The Kafka Topics are: `Artificial_Intelligence`, `Finance` and `Cybersecurity`. Those are just examples of different Topics that could be used.
 
 ## Accessing the services
