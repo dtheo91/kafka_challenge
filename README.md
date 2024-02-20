@@ -34,7 +34,7 @@ You can also check the Logs in the Jupyterlab to see the data being processed an
 
 To get an intuition for my thought process, you can check the following Presentation:
 
-- Presentation.pptx
+- Presentation.pdf
 
 ## Stopping the project
 
